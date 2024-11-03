@@ -30,7 +30,7 @@ function App() {
     );
 
   return (
-    <div className="App">
+    <div className="ui-grid-container">
       <Nav />
       <Filter onFilterChange={setOnlyGreased} />
       <Sort onSortChange={setSortCriterion} />
